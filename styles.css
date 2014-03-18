@@ -1,0 +1,27 @@
+body{
+	margin: 0px;
+	background-image: url('Background.jpg');
+	background-repeat: no-repeat;
+	background-size:  cover;
+	font-size: 35px;
+}
+
+.myFirstClass{
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 800px;
+	height: 600px;
+	margin: 0px auto;
+	margin-top: 100px;
+	padding: 55px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border-radius: 20px;
+}
+
+.address{
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 100px;
+	font-size: 50px;
+	line-height: 100px;
+	padding-left: 20px;
+}
