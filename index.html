@@ -2,9 +2,20 @@
 	<head>
 		<title>My Website</title>
 		<link href="styles.css" type="text/css" rel="stylesheet">
-			<div class="address"> Dalton Lewis </div>
+		<script> 
+			  window.onload = function(){
+				 setInterval(function(){
+					 document.getElementById("demo").innerHTML = new Date();
+				 }, 1000);
+			  }
+		</script>
 	</head>
 	<body>
-		<div class="myFirstClass">I Cook meat!!!!</div>
+		<div class="address"> Dalton Lewis </div>
+		<div class="myFirstClass">I like meat</div>
+		<h1 style="color: Blue;">  Hero
+		</h1>
+		<p style="color: blue;">The Time!!!!!!!!!!!!.</p>
+		<p id="demo" style="color: blue;"></p>
 	</body>
 </html>
